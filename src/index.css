@@ -1,3 +1,47 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+    audio{
+      @apply hidden;
+    }
+
+    .item {
+      @apply border border-white border-opacity-10 rounded-sm flex items-end justify-start text-xs font-light text-white px-2 py-1.5 text-opacity-50 tracking-widest transition duration-1000 hover:duration-100;
+    }
+
+    .item:nth-child(1)  {@apply hover:bg-[#ffc3ebff]}
+    .item:nth-child(2)  {@apply  hover:bg-[#FFA8E2ff]}
+    .item:nth-child(3)  {@apply  hover:bg-[#FBA2DEff]}
+    .item:nth-child(4)  {@apply  hover:bg-[#F79DD9ff]}
+    .item:nth-child(5)  {@apply  hover:bg-[#F397D5ff]}
+    .item:nth-child(6)  {@apply  hover:bg-[#EF91D0ff]}
+    .item:nth-child(7)  {@apply  hover:bg-[#EC8CCCff]}
+    .item:nth-child(8)  {@apply  hover:bg-[#E886C7ff]}
+    .item:nth-child(9)  {@apply  hover:bg-[#E480C3ff]}
+    .item:nth-child(10) {@apply  hover:bg-[#E07ABEff]}
+    .item:nth-child(11) {@apply  hover:bg-[#DC75BAff]}
+    .item:nth-child(12) {@apply  hover:bg-[#D86FB5ff]}
+    .item:nth-child(13) {@apply  hover:bg-[#D469B1ff]}
+    .item:nth-child(14) {@apply  hover:bg-[#D064ACff]}
+    .item:nth-child(15) {@apply  hover:bg-[#CC5EA8ff]}
+    .item:nth-child(16) {@apply  hover:bg-[#C858A3ff]}
+    .item:nth-child(17) {@apply  hover:bg-[#C5539Fff]}
+    .item:nth-child(18) {@apply  hover:bg-[#C14D9Aff]}
+    .item:nth-child(19) {@apply  hover:bg-[#BD4796ff]}
+    .item:nth-child(20) {@apply  hover:bg-[#B94291ff]}
+    .item:nth-child(21) {@apply  hover:bg-[#B53C8Dff]}
+    .item:nth-child(22) {@apply  hover:bg-[#B13688ff]}
+    .item:nth-child(23) {@apply  hover:bg-[#AD3184ff]}
+    .item:nth-child(24) {@apply  hover:bg-[#A92B7Fff]}
+    .item:nth-child(25) {@apply  hover:bg-[#A5257Bff]}
+    .item:nth-child(26) {@apply  hover:bg-[#A11F76ff]}
+    .item:nth-child(27) {@apply  hover:bg-[#9E1A72ff]}
+    .item:nth-child(28) {@apply  hover:bg-[#9A146Dff]}
+    .item:nth-child(29) {@apply  hover:bg-[#960E69ff]}
+    .item:nth-child(30) {@apply  hover:bg-[#920964ff]}
+    .item:nth-child(31) {@apply  hover:bg-[#8E0360ff]}
+    .item:nth-child(32) {@apply  hover:bg-[#640344ff]}
+    .item:nth-child(33) {@apply  hover:bg-[#56023aff]}
+}
